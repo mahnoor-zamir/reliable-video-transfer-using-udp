@@ -1,6 +1,7 @@
 # Reliable-Video-Transfer-using-UDP
 
 This program is designed to facilitate the reliable transfer of video files over a network using the UDP protocol in a Linux/GNU C sockets environment. 
+
 **Features**
 - **Selective Repeat Mechanism**: The sender implements a selective repeat mechanism to improve the reliability of UDP data transfer. It retransmits only those packets for - which acknowledgments have not been received.
 - **Threaded Acknowledgment Reception**: The program utilizes a separate thread to receive acknowledgments in parallel with the main program execution, enhancing efficiency.
