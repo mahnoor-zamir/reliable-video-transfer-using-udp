@@ -1,4 +1,4 @@
-# Reliable-Video-Transfer-using-UDP
+# Reliable Video Transfer using UDP
 
 This program is designed to facilitate the reliable transfer of video files over a network using the UDP protocol in a Linux/GNU C sockets environment. 
 
